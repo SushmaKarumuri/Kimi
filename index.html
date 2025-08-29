@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kimi - Web Application</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #74ABE2, #5563DE);
+      color: #fff;
+      text-align: center;
+    }
+
+    header {
+      padding: 50px 20px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    nav {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      position: sticky;
+      top: 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 50px 20px;
+    }
+
+    .btn {
+      background: #ff6f61;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 8px;
+      color: white;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #e85b50;
+    }
+
+    footer {
+      background: rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Kimi</h1>
+    <p>Your personalized web app design 🚀</p>
+    <button class="btn" onclick="greetUser()">Click Me</button>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#features">Features</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Kimi</h2>
+    <p>This is a simple web application design created using HTML, CSS, and JavaScript.</p>
+  </section>
+
+  <section id="features">
+    <h2>Features</h2>
+    <ul style="list-style:none; padding:0;">
+      <li>✔ Modern UI</li>
+      <li>✔ Responsive Design</li>
+      <li>✔ Interactive Elements</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: kimi@example.com</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Kimi Web App. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function greetUser() {
+      alert("Hello from Kimi! 🎉 Thanks for visiting.");
+    }
+  </script>
+</body>
+</html>
